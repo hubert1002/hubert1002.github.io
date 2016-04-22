@@ -41,13 +41,7 @@ function content_click(is_show){
     $('#content_table').hide();
     $('#content_btn i').removeClass('fa-minus').addClass('fa-plus');
   }
-  //
-  var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+
   
   
 }
@@ -102,6 +96,15 @@ $(document).ready(function() {
     if(href && (href == "/")){
         showTab(false);
     }
+    
+      //
+  var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+    
   });
 
   showTab(false);
