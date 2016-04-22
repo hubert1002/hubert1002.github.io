@@ -127,4 +127,8 @@ blockquote p {
 .show-commend {
   width: 100%;
   margin-bottom: 40px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
