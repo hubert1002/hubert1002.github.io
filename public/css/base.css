@@ -125,12 +125,10 @@ blockquote p {
 }
 /* 显示评论按钮 */
 .show-commend {
-  width: 100%;
+  width: 90%;
   margin-bottom: 10px;
   margin-left: 20px;
   margin-right: 20px;
   
-  padding-left: 10px;
-  padding-right: 10px;
 
 }
