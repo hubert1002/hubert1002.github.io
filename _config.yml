@@ -11,7 +11,7 @@ author:
   github: http://github.com/hubert1002
 
 # Site
-title: 我的代码人生
+title: 写代码
 description: Blog of Hubert
 url: http://hubert.github.io
 rss_url: /pages/atom.xml
@@ -37,5 +37,5 @@ active: 读书
 locals:
   tags: 标签
   about: 关于
-  newest: 吃饭睡觉打豆豆
+  newest: 吃饭睡觉没有豆豆打
   archive: 存档
