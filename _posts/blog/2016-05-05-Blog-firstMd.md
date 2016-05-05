@@ -10,7 +10,7 @@ description: 掌信消息通道建立和维护
 ##一 消息通道的建立
 ---  
 
-流程：
+流程： 
 
 > 1 访问Dispatch接口得到 Host Port  
 
