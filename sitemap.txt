@@ -9,3 +9,9 @@ title : Sitemap
 {% for post in site.posts %}
   {{site.address}}{{ post.url }}
 {% endfor %}
+
+{% for documents in site.documents %}
+  {{site.address}}{{ documents.url }}
+{% endfor %}
+
+
